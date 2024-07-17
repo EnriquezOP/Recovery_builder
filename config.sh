@@ -6,12 +6,12 @@ export MANIFEST="https://github.com/minimal-manifest-twrp/platform_manifest_twrp
 export BRANCH="twrp-9.0" # the branch of manifest
 
 # about your device
-export DEVICE="m10lte" # codename used in device tree
-export DT_LINK="https://github.com/youssefnone/android_recovery_samsung_m10lte" # device tree link
-export DT_BRANCH="twrp" # device tree branch
-export VENDOR="samsung" # device manufacturer or vendor
+export DEVICE="bf7" # codename used in device tree
+export DT_LINK="https://github.com/twrpdtgen/android_device_tecno_TECNO-BF7" # device tree link
+export DT_BRANCH="vnd_bf7_h6127-user-12-SP1A.210812.016-605190-release-keys" # device tree branch
+export VENDOR="tecno" # device manufacturer or vendor
 export TARGET="recoveryimage" # build method: recoveryimage, bootimage, vendorboot
-export TYPE="omni" # recovery type: omni, twrp, something else
+export TYPE="omni_TECNO-BF7" # recovery type: omni, twrp, something else
 
 # you dont need to edit these
 export SYM="_"
